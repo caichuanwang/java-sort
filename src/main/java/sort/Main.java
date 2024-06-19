@@ -8,7 +8,8 @@ public class Main {
 //        int[] resp = SelectionSort.selection(source);
 //        int[] resp = InsertSort.sort(source);
 //        int[] resp = Bubble.sort(source);
-         quickSort.sort(source, 0, source.length - 1);
+//         quickSort.sort(source, 0, source.length - 1);
+        MergeSort.sort(source, 0, source.length-1);
         System.out.println(Arrays.toString(source));
     }
 
